@@ -10,4 +10,9 @@
 
 @interface MBProgressHUD (NXAdd)
 
++ (MB_INSTANCETYPE)showMessageHUDAddedTo:(UIView *)view
+                              withDetail:(NSString *)detail
+                          hideAfterDelay:(NSTimeInterval)delay
+                                animated:(BOOL)animated;
+
 @end

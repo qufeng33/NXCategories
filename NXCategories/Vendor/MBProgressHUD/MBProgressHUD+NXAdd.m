@@ -10,4 +10,18 @@
 
 @implementation MBProgressHUD (NXAdd)
 
++ (instancetype)showMessageHUDAddedTo:(UIView *)view
+                           withDetail:(NSString *)detail
+                       hideAfterDelay:(NSTimeInterval)delay
+                             animated:(BOOL)animated{
+    MBProgressHUD *hud = [[self alloc] initWithView:view];
+    hud.mode             = MBProgressHUDModeText;
+    hud.detailsLabelText = detail;
+    hud.removeFromSuperViewOnHide = YES;
+    [view addSubview:hud];
+    [hud show:animated];
+    [hud hide:animated afterDelay:delay];
+    return hud;
+}
+
 @end
