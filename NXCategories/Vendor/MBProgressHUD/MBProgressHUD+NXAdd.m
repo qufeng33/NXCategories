@@ -14,6 +14,7 @@
                            withDetail:(NSString *)detail
                        hideAfterDelay:(NSTimeInterval)delay
                              animated:(BOOL)animated{
+    [MBProgressHUD hideAllHUDsForView:view animated:NO];
     MBProgressHUD *hud = [[self alloc] initWithView:view];
     hud.mode             = MBProgressHUDModeText;
     hud.detailsLabelText = detail;
