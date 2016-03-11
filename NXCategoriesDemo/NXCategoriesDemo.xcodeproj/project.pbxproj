@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883EE6FD1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883EE6FC1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m */; };
 		883F17741C91CC9D00C892A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17731C91CC9D00C892A2 /* main.m */; };
 		883F17771C91CC9D00C892A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17761C91CC9D00C892A2 /* AppDelegate.m */; };
 		883F177A1C91CC9D00C892A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17791C91CC9D00C892A2 /* ViewController.m */; };
@@ -20,6 +21,7 @@
 		883F17B31C91D45400C892A2 /* UIColor+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B21C91D45400C892A2 /* UIColor+NXAdd.m */; };
 		883F17B61C91D5B900C892A2 /* NSString+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B51C91D5B900C892A2 /* NSString+NXAdd.m */; };
 		883F17B91C91D62900C892A2 /* UIImage+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */; };
+		C2DD6189F6D6B1F5AFFAA2B1 /* libPods-NXCategoriesDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49B80A72957886AB826DDF15 /* Pods-NXCategoriesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXCategoriesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NXCategoriesDemo/Pods-NXCategoriesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81840F2D629211B003AFFE0C /* Pods-NXCategoriesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXCategoriesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NXCategoriesDemo/Pods-NXCategoriesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		883EE6FB1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NXAdd.h"; sourceTree = "<group>"; };
+		883EE6FC1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NXAdd.m"; sourceTree = "<group>"; };
 		883F176F1C91CC9D00C892A2 /* NXCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883F17731C91CC9D00C892A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		883F17751C91CC9D00C892A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 		883F17B51C91D5B900C892A2 /* NSString+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NXAdd.m"; sourceTree = "<group>"; };
 		883F17B71C91D62900C892A2 /* UIImage+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NXAdd.h"; sourceTree = "<group>"; };
 		883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NXAdd.m"; sourceTree = "<group>"; };
+		EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NXCategoriesDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DD6189F6D6B1F5AFFAA2B1 /* libPods-NXCategoriesDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +101,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1495A165A3A5196CAE969728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28065CBB9F516D63540CE212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81840F2D629211B003AFFE0C /* Pods-NXCategoriesDemo.debug.xcconfig */,
+				49B80A72957886AB826DDF15 /* Pods-NXCategoriesDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		883EE6F81C92B86A00EC1156 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				883EE6F91C92B86A00EC1156 /* MBProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		883EE6F91C92B86A00EC1156 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				883EE6FB1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.h */,
+				883EE6FC1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		883F17661C91CC9D00C892A2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +143,8 @@
 				883F178B1C91CC9E00C892A2 /* NXCategoriesDemoTests */,
 				883F17961C91CC9E00C892A2 /* NXCategoriesDemoUITests */,
 				883F17701C91CC9D00C892A2 /* Products */,
+				28065CBB9F516D63540CE212 /* Pods */,
+				1495A165A3A5196CAE969728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +203,7 @@
 		883F17A51C91CCE300C892A2 /* NXCategories */ = {
 			isa = PBXGroup;
 			children = (
+				883EE6F81C92B86A00EC1156 /* Vendor */,
 				883F17A61C91CCE300C892A2 /* Foundation */,
 				883F17A71C91CCE300C892A2 /* UIKit */,
 			);
@@ -197,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 883F179C1C91CC9E00C892A2 /* Build configuration list for PBXNativeTarget "NXCategoriesDemo" */;
 			buildPhases = (
+				8D89411C9BF7AA8CBFC108AF /* Check Pods Manifest.lock */,
 				883F176B1C91CC9D00C892A2 /* Sources */,
 				883F176C1C91CC9D00C892A2 /* Frameworks */,
 				883F176D1C91CC9D00C892A2 /* Resources */,
+				AFE485A465366165CBCF46DE /* Embed Pods Frameworks */,
+				BA2DBC89E74B5E4E526C97C9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,6 +363,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D89411C9BF7AA8CBFC108AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE485A465366165CBCF46DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXCategoriesDemo/Pods-NXCategoriesDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2DBC89E74B5E4E526C97C9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXCategoriesDemo/Pods-NXCategoriesDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		883F176B1C91CC9D00C892A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -324,6 +420,7 @@
 				883F17AA1C91CD1A00C892A2 /* NSDictionary+NXAdd.m in Sources */,
 				883F177A1C91CC9D00C892A2 /* ViewController.m in Sources */,
 				883F17771C91CC9D00C892A2 /* AppDelegate.m in Sources */,
+				883EE6FD1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m in Sources */,
 				883F17741C91CC9D00C892A2 /* main.m in Sources */,
 				883F17B91C91D62900C892A2 /* UIImage+NXAdd.m in Sources */,
 				883F17B31C91D45400C892A2 /* UIColor+NXAdd.m in Sources */,
@@ -464,6 +561,7 @@
 		};
 		883F179D1C91CC9E00C892A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81840F2D629211B003AFFE0C /* Pods-NXCategoriesDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NXCategoriesDemo/Info.plist;
@@ -475,6 +573,7 @@
 		};
 		883F179E1C91CC9E00C892A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B80A72957886AB826DDF15 /* Pods-NXCategoriesDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NXCategoriesDemo/Info.plist;
