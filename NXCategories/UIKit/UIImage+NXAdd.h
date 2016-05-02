@@ -107,5 +107,12 @@ NS_ASSUME_NONNULL_BEGIN
                                    borderColor:(nullable UIColor *)borderColor
                                 borderLineJoin:(CGLineJoin)borderLineJoin;
 
+- (nullable UIImage *)applyLightEffect;
+- (nullable UIImage *)applyExtraLightEffect;
+- (nullable UIImage *)applyDarkEffect;
+- (nullable UIImage *)applyTintEffectWithColor:(UIColor *)tintColor;
+
+- (nullable UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(nullable UIImage *)maskImage;
+
 @end
 NS_ASSUME_NONNULL_END
