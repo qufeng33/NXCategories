@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'NXCategories'
-s.version      = '0.1.6'
+s.version      = '0.1.7'
 s.summary      = '个人的iOSCategories'
 s.homepage     = 'https://github.com/qufeng33/NXCategories'
 s.license      = 'MIT'

@@ -156,7 +156,7 @@
 }
 
 
-- (nullable UIImage *)applyTintEffectWithColor:(UIColor *)tintColor{
+- (nullable UIImage *)applyTintEffectWithColor:(nullable UIColor *)tintColor{
     const CGFloat EffectColorAlpha = 0.6;
     UIColor *effectColor = tintColor;
     int componentCount = (int)CGColorGetNumberOfComponents(tintColor.CGColor);
@@ -175,7 +175,7 @@
 }
 
 
-- (nullable UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(nullable UIImage *)maskImage
+- (nullable UIImage *)applyBlurWithRadius:(CGFloat)blurRadius tintColor:(nullable UIColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(nullable UIImage *)maskImage
 {
     // Check pre-conditions.
     if (self.size.width < 1 || self.size.height < 1) {
