@@ -21,6 +21,8 @@
 		883F17B31C91D45400C892A2 /* UIColor+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B21C91D45400C892A2 /* UIColor+NXAdd.m */; };
 		883F17B61C91D5B900C892A2 /* NSString+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B51C91D5B900C892A2 /* NSString+NXAdd.m */; };
 		883F17B91C91D62900C892A2 /* UIImage+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */; };
+		88AA391D1D1288B0001F4682 /* UIFont+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA391C1D1288B0001F4682 /* UIFont+NXAdd.m */; };
+		88AA39201D1288EF001F4682 /* NSDate+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA391F1D1288EF001F4682 /* NSDate+NXAdd.m */; };
 		C2DD6189F6D6B1F5AFFAA2B1 /* libPods-NXCategoriesDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,10 @@
 		883F17B51C91D5B900C892A2 /* NSString+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NXAdd.m"; sourceTree = "<group>"; };
 		883F17B71C91D62900C892A2 /* UIImage+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NXAdd.h"; sourceTree = "<group>"; };
 		883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NXAdd.m"; sourceTree = "<group>"; };
+		88AA391B1D1288B0001F4682 /* UIFont+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NXAdd.h"; sourceTree = "<group>"; };
+		88AA391C1D1288B0001F4682 /* UIFont+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NXAdd.m"; sourceTree = "<group>"; };
+		88AA391E1D1288EF001F4682 /* NSDate+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NXAdd.h"; sourceTree = "<group>"; };
+		88AA391F1D1288EF001F4682 /* NSDate+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NXAdd.m"; sourceTree = "<group>"; };
 		EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NXCategoriesDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -220,6 +226,8 @@
 				883F17AC1C91CD2900C892A2 /* NSArray+NXAdd.m */,
 				883F17B41C91D5B900C892A2 /* NSString+NXAdd.h */,
 				883F17B51C91D5B900C892A2 /* NSString+NXAdd.m */,
+				88AA391E1D1288EF001F4682 /* NSDate+NXAdd.h */,
+				88AA391F1D1288EF001F4682 /* NSDate+NXAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -231,6 +239,8 @@
 				883F17B21C91D45400C892A2 /* UIColor+NXAdd.m */,
 				883F17B71C91D62900C892A2 /* UIImage+NXAdd.h */,
 				883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */,
+				88AA391B1D1288B0001F4682 /* UIFont+NXAdd.h */,
+				88AA391C1D1288B0001F4682 /* UIFont+NXAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -424,7 +434,9 @@
 				883F17741C91CC9D00C892A2 /* main.m in Sources */,
 				883F17B91C91D62900C892A2 /* UIImage+NXAdd.m in Sources */,
 				883F17B31C91D45400C892A2 /* UIColor+NXAdd.m in Sources */,
+				88AA391D1D1288B0001F4682 /* UIFont+NXAdd.m in Sources */,
 				883F17B61C91D5B900C892A2 /* NSString+NXAdd.m in Sources */,
+				88AA39201D1288EF001F4682 /* NSDate+NXAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

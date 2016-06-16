@@ -10,9 +10,18 @@
 
 @implementation NSString (NXAdd)
 
-- (NSString *)stringByTrim {
+- (NSString *)stringByTrim{
     NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
     return [self stringByTrimmingCharactersInSet:set];
+}
+
++ (NSString *)convertMoneyNumberToString:(NSNumber *)number
+                    withLocaleIdentifier:(NSString *)identifier{
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc]init];
+    [formatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    [formatter setPositiveFormat:@"###,##0.00;"];
+    formatter.locale = [NSLocale localeWithLocaleIdentifier:identifier];
+    return [formatter stringFromNumber:number?number:@0];
 }
 
 @end
