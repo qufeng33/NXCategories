@@ -11,13 +11,6 @@
 @interface NSString (NXAdd)
 
 /**
- *  去掉两端的空格
- *
- *  @return 返回处理后的结果
- */
-- (NSString *)stringByTrim;
-
-/**
  *  把数字化成货币格式
  *
  *  @param number     数字
@@ -27,5 +20,45 @@
  */
 + (NSString *)convertMoneyNumberToString:(NSNumber *)number
                     withLocaleIdentifier:(NSString *)identifier;
+
+/**
+ *  判断字符串中是否含有某个字符串
+ *
+ *  @param string1 想要检测的字符串
+ *  @param string2 用于监测的字符串
+ *
+ *  @return 是否包含该字符串
+ */
++ (BOOL)isHaveString:(NSString *)string1 InString:(NSString *)string2;
+
+/**
+ *  去掉两端的空格
+ *
+ *  @return 返回处理后的结果
+ */
+- (NSString *)stringByTrim;
+
+/**
+ *  验证是否为Email地址
+ *
+ *  @return 验证是否为Email地址
+ */
+- (BOOL)isEmailAddress;
+
+
+/**
+ *  验证是否为车牌号码
+ *
+ *  @return 验证是否为车牌号码
+ */
+- (BOOL)isCarNumber;
+
+/**
+ *  验证是否为网址
+ *
+ *  @return 验证是否为网址
+ */
+- (BOOL)isURL;
+
 
 @end

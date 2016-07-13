@@ -23,6 +23,10 @@
 		883F17B91C91D62900C892A2 /* UIImage+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */; };
 		88AA391D1D1288B0001F4682 /* UIFont+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA391C1D1288B0001F4682 /* UIFont+NXAdd.m */; };
 		88AA39201D1288EF001F4682 /* NSDate+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA391F1D1288EF001F4682 /* NSDate+NXAdd.m */; };
+		88E4790D1D2BA70B00023778 /* UIScreen+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4790C1D2BA70B00023778 /* UIScreen+NXAdd.m */; };
+		88E479101D2BA8D800023778 /* UIButton+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4790F1D2BA8D800023778 /* UIButton+NXAdd.m */; };
+		88E479131D2BB2A300023778 /* UIDevice+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E479121D2BB2A300023778 /* UIDevice+NXAdd.m */; };
+		88FD95571D2568C8006AB1F9 /* NSData+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FD95561D2568C8006AB1F9 /* NSData+NXAdd.m */; };
 		C2DD6189F6D6B1F5AFFAA2B1 /* libPods-NXCategoriesDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +82,16 @@
 		88AA391C1D1288B0001F4682 /* UIFont+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NXAdd.m"; sourceTree = "<group>"; };
 		88AA391E1D1288EF001F4682 /* NSDate+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NXAdd.h"; sourceTree = "<group>"; };
 		88AA391F1D1288EF001F4682 /* NSDate+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NXAdd.m"; sourceTree = "<group>"; };
+		88B6B7601D361296008A13A2 /* UIKit+NXAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+NXAdd.h"; sourceTree = "<group>"; };
+		88B6B7611D361693008A13A2 /* Fonudation＋NXAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fonudation＋NXAdd.h"; sourceTree = "<group>"; };
+		88E4790B1D2BA70B00023778 /* UIScreen+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+NXAdd.h"; sourceTree = "<group>"; };
+		88E4790C1D2BA70B00023778 /* UIScreen+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+NXAdd.m"; sourceTree = "<group>"; };
+		88E4790E1D2BA8D800023778 /* UIButton+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NXAdd.h"; sourceTree = "<group>"; };
+		88E4790F1D2BA8D800023778 /* UIButton+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NXAdd.m"; sourceTree = "<group>"; };
+		88E479111D2BB2A300023778 /* UIDevice+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+NXAdd.h"; sourceTree = "<group>"; };
+		88E479121D2BB2A300023778 /* UIDevice+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+NXAdd.m"; sourceTree = "<group>"; };
+		88FD95551D2568C8006AB1F9 /* NSData+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NXAdd.h"; sourceTree = "<group>"; };
+		88FD95561D2568C8006AB1F9 /* NSData+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NXAdd.m"; sourceTree = "<group>"; };
 		EE5F1FAD7C6DAA635CABF8ED /* libPods-NXCategoriesDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NXCategoriesDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -212,6 +226,8 @@
 				883EE6F81C92B86A00EC1156 /* Vendor */,
 				883F17A61C91CCE300C892A2 /* Foundation */,
 				883F17A71C91CCE300C892A2 /* UIKit */,
+				88B6B7601D361296008A13A2 /* UIKit+NXAdd.h */,
+				88B6B7611D361693008A13A2 /* Fonudation＋NXAdd.h */,
 			);
 			name = NXCategories;
 			path = ../NXCategories;
@@ -228,6 +244,8 @@
 				883F17B51C91D5B900C892A2 /* NSString+NXAdd.m */,
 				88AA391E1D1288EF001F4682 /* NSDate+NXAdd.h */,
 				88AA391F1D1288EF001F4682 /* NSDate+NXAdd.m */,
+				88FD95551D2568C8006AB1F9 /* NSData+NXAdd.h */,
+				88FD95561D2568C8006AB1F9 /* NSData+NXAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -241,6 +259,12 @@
 				883F17B81C91D62900C892A2 /* UIImage+NXAdd.m */,
 				88AA391B1D1288B0001F4682 /* UIFont+NXAdd.h */,
 				88AA391C1D1288B0001F4682 /* UIFont+NXAdd.m */,
+				88E4790B1D2BA70B00023778 /* UIScreen+NXAdd.h */,
+				88E4790C1D2BA70B00023778 /* UIScreen+NXAdd.m */,
+				88E4790E1D2BA8D800023778 /* UIButton+NXAdd.h */,
+				88E4790F1D2BA8D800023778 /* UIButton+NXAdd.m */,
+				88E479111D2BB2A300023778 /* UIDevice+NXAdd.h */,
+				88E479121D2BB2A300023778 /* UIDevice+NXAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -429,14 +453,18 @@
 				883F17AD1C91CD2900C892A2 /* NSArray+NXAdd.m in Sources */,
 				883F17AA1C91CD1A00C892A2 /* NSDictionary+NXAdd.m in Sources */,
 				883F177A1C91CC9D00C892A2 /* ViewController.m in Sources */,
+				88E479131D2BB2A300023778 /* UIDevice+NXAdd.m in Sources */,
 				883F17771C91CC9D00C892A2 /* AppDelegate.m in Sources */,
 				883EE6FD1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m in Sources */,
 				883F17741C91CC9D00C892A2 /* main.m in Sources */,
+				88E4790D1D2BA70B00023778 /* UIScreen+NXAdd.m in Sources */,
 				883F17B91C91D62900C892A2 /* UIImage+NXAdd.m in Sources */,
 				883F17B31C91D45400C892A2 /* UIColor+NXAdd.m in Sources */,
 				88AA391D1D1288B0001F4682 /* UIFont+NXAdd.m in Sources */,
 				883F17B61C91D5B900C892A2 /* NSString+NXAdd.m in Sources */,
+				88FD95571D2568C8006AB1F9 /* NSData+NXAdd.m in Sources */,
 				88AA39201D1288EF001F4682 /* NSDate+NXAdd.m in Sources */,
+				88E479101D2BA8D800023778 /* UIButton+NXAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
