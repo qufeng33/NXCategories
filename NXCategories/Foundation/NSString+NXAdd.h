@@ -60,5 +60,12 @@
  */
 - (BOOL)isURL;
 
+/**
+ *  验证是否为身份证
+ *
+ *  @return 验证是否为身份证
+ */
+- (BOOL)isIdentityCard;
+
 
 @end
