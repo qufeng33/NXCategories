@@ -25,6 +25,15 @@
     return [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera];
 }
 
++ (BOOL)isiPad{
+    if ([[UIDevice currentDevice] respondsToSelector:@selector(userInterfaceIdiom)] &&
+        [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        return YES;
+    }
+    
+    return NO;
+}
+
 + (NSString *)getMacAddress{
     int mib[6];
     size_t len;

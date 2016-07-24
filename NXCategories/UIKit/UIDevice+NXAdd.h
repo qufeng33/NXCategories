@@ -25,6 +25,13 @@
  */
 + (BOOL)hasCamera;
 
+/**
+ *  判断当前系统是否为iPad
+ *
+ *  @return 当前系统是否为iPad
+ */
++ (BOOL)isiPad;
+
 
 /**
  *  获取用户当前的IP地址
