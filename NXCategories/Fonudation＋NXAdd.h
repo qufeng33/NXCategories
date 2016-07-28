@@ -10,5 +10,6 @@
 #import "NSDictionary+NXAdd.h"
 #import "NSArray+NXAdd.h"
 #import "NSString+NXAdd.h"
+#import "NSAttributedString+NXAdd.h"
 #import "NSDate+NXAdd.h"
 #import "NSData+NXAdd.h"
