@@ -20,4 +20,16 @@
  */
 + (NSString *)stringFromDate:(NSDate *)date dateFormatter:(NSString *)dateFormatter;
 
+
+/**
+ *  根据要求将NSString转换成NSDate
+ *
+ *  @param dateString    时间的文本格式
+ *  @param dateFormatter 转换的格式
+ *
+ *  @return 转换后的NSDate对象
+ */
++ (NSDate *)dateFromDateString:(NSString *)dateString dateFormatter:(NSString *)dateFormatter;
+
+
 @end

@@ -16,4 +16,10 @@
     return [formatter stringFromDate:date];
 }
 
++ (NSDate *)dateFromDateString:(NSString *)dateString dateFormatter:(NSString *)dateFormatter{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = dateFormatter;
+    return [formatter dateFromString:dateString];
+}
+
 @end
