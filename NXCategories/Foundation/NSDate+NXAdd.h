@@ -15,10 +15,13 @@
  *
  *  @param date          时间
  *  @param dateFormatter 转换的格式
+ *  @param timeZone      时区
  *
  *  @return 转换后的字符串
  */
-+ (NSString *)stringFromDate:(NSDate *)date dateFormatter:(NSString *)dateFormatter;
++ (NSString *)stringFromDate:(NSDate *)date
+               dateFormatter:(NSString *)dateFormatter
+                    timeZone:(NSTimeZone *)timeZone;
 
 
 /**
@@ -26,10 +29,14 @@
  *
  *  @param dateString    时间的文本格式
  *  @param dateFormatter 转换的格式
+ *  @param timeZone      时区
  *
  *  @return 转换后的NSDate对象
  */
-+ (NSDate *)dateFromDateString:(NSString *)dateString dateFormatter:(NSString *)dateFormatter;
++ (NSDate *)dateFromDateString:(NSString *)dateString
+                 dateFormatter:(NSString *)dateFormatter
+                      timeZone:(NSTimeZone *)timeZone;
+;
 
 
 @end

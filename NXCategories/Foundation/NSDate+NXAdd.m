@@ -10,15 +10,23 @@
 
 @implementation NSDate (NXAdd)
 
-+ (NSString *)stringFromDate:(NSDate *)date dateFormatter:(NSString *)dateFormatter{
++ (NSString *)stringFromDate:(NSDate *)date
+               dateFormatter:(NSString *)dateFormatter
+                    timeZone:(NSTimeZone *)timeZone{
+    
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    formatter.dateFormat = dateFormatter;
+    formatter.timeZone         = timeZone;
+    formatter.dateFormat       = dateFormatter;
     return [formatter stringFromDate:date];
 }
 
-+ (NSDate *)dateFromDateString:(NSString *)dateString dateFormatter:(NSString *)dateFormatter{
++ (NSDate *)dateFromDateString:(NSString *)dateString
+                 dateFormatter:(NSString *)dateFormatter
+                      timeZone:(NSTimeZone *)timeZone{
+    
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    formatter.dateFormat = dateFormatter;
+    formatter.timeZone         = timeZone;
+    formatter.dateFormat       = dateFormatter;
     return [formatter dateFromString:dateString];
 }
 
