@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88326B071D5C695200D85A20 /* UIViewController+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88326B061D5C695200D85A20 /* UIViewController+NXAdd.m */; };
 		883EE6FD1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 883EE6FC1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m */; };
 		883F17741C91CC9D00C892A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17731C91CC9D00C892A2 /* main.m */; };
 		883F17771C91CC9D00C892A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F17761C91CC9D00C892A2 /* AppDelegate.m */; };
@@ -51,6 +52,8 @@
 /* Begin PBXFileReference section */
 		49B80A72957886AB826DDF15 /* Pods-NXCategoriesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXCategoriesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NXCategoriesDemo/Pods-NXCategoriesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		81840F2D629211B003AFFE0C /* Pods-NXCategoriesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXCategoriesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NXCategoriesDemo/Pods-NXCategoriesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		88326B051D5C695200D85A20 /* UIViewController+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NXAdd.h"; sourceTree = "<group>"; };
+		88326B061D5C695200D85A20 /* UIViewController+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NXAdd.m"; sourceTree = "<group>"; };
 		883EE6FB1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NXAdd.h"; sourceTree = "<group>"; };
 		883EE6FC1C92BA4B00EC1156 /* MBProgressHUD+NXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NXAdd.m"; sourceTree = "<group>"; };
 		883F176F1C91CC9D00C892A2 /* NXCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,6 +273,8 @@
 				88E4790F1D2BA8D800023778 /* UIButton+NXAdd.m */,
 				88E479111D2BB2A300023778 /* UIDevice+NXAdd.h */,
 				88E479121D2BB2A300023778 /* UIDevice+NXAdd.m */,
+				88326B051D5C695200D85A20 /* UIViewController+NXAdd.h */,
+				88326B061D5C695200D85A20 /* UIViewController+NXAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -455,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88326B071D5C695200D85A20 /* UIViewController+NXAdd.m in Sources */,
 				883F17AD1C91CD2900C892A2 /* NSArray+NXAdd.m in Sources */,
 				883F17AA1C91CD1A00C892A2 /* NSDictionary+NXAdd.m in Sources */,
 				883F177A1C91CC9D00C892A2 /* ViewController.m in Sources */,

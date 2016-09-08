@@ -67,5 +67,19 @@
  */
 - (BOOL)isIdentityCard;
 
+/**
+ *  验证是否为整数
+ *
+ *  @return 验证是否为整数
+ */
+- (BOOL)isPureInt;
+
+/**
+ *  验证是否为浮点数
+ *
+ *  @return 验证是否为浮点数
+ */
+- (BOOL)isPureFloat;
+
 
 @end
